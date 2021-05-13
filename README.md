@@ -16,6 +16,13 @@ It contains the basic code for 2-D image entropy.The code will run very slowly,i
 
 ### `entropy2dSpeedUp.py`
 It contains optimized code for better performance.And it is very recommanded to use it in practical circumstance.
+optimization this version code, compared runtime in image size 911x480 as following:
+#ori
+H: 13.936284981535263
+runtime: 8.624836444854736 s
+#opti 
+H: 13.936284981535266
+runtime: 1.96828293800354 s
 
 ### `entropy2dCounter.py`
 It is the same with `entropy2dSpeedUp.py`,I  just add some time evaluating code into it.
